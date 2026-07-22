@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CGV Colocool</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; background: #F7F6FB; color: #1A1530; line-height: 1.7; }
+    header { background: #7B5CF0; color: white; padding: 48px 24px 32px; text-align: center; }
+    header h1 { font-size: 28px; font-weight: 800; margin-bottom: 8px; }
+    .app-name { font-size: 18px; color: #3EC98E; font-weight: 700; margin-bottom: 8px; }
+    .date { font-size: 13px; opacity: 0.75; font-style: italic; }
+    .container { max-width: 760px; margin: 0 auto; padding: 32px 24px 64px; }
+    h2 { font-size: 20px; font-weight: 800; color: #7B5CF0; margin: 40px 0 12px; padding-bottom: 8px; border-bottom: 2px solid #EDE9FD; }
+    h3 { font-size: 16px; font-weight: 700; color: #1A1530; margin: 24px 0 8px; }
+    p { font-size: 15px; color: #3A3550; margin-bottom: 14px; }
+    ul { margin: 8px 0 16px 20px; }
+    ul li { font-size: 15px; color: #3A3550; margin-bottom: 8px; }
+    .highlight { background: #EDE9FD; border-left: 4px solid #7B5CF0; border-radius: 0 12px 12px 0; padding: 16px 20px; margin: 16px 0; font-size: 14px; color: #4A3580; }
+    .plans { display: flex; gap: 16px; margin: 20px 0; flex-wrap: wrap; }
+    .plan-card { flex: 1; min-width: 200px; border-radius: 16px; padding: 20px; }
+    .plan-standard { background: #EDE9FD; border: 2px solid #7B5CF0; }
+    .plan-premium { background: #FEF9E7; border: 2px solid #F7C948; }
+    .plan-prestige { background: #1A1530; border: 2px solid #7B5CF0; }
+    .plan-title { font-size: 16px; font-weight: 800; margin-bottom: 6px; }
+    .plan-standard .plan-title { color: #7B5CF0; }
+    .plan-premium .plan-title { color: #D4A017; }
+    .plan-prestige .plan-title { color: #fff; }
+    .plan-price { font-size: 28px; font-weight: 800; margin-bottom: 12px; }
+    .plan-standard .plan-price { color: #7B5CF0; }
+    .plan-premium .plan-price { color: #D4A017; }
+    .plan-prestige .plan-price { color: #fff; }
+    .plan-feature { font-size: 13px; margin-bottom: 6px; }
+    .plan-standard .plan-feature { color: #3A3550; }
+    .plan-premium .plan-feature { color: #3A3550; }
+    .plan-prestige .plan-feature { color: rgba(255,255,255,0.8); }
+    .plan-prestige .plan-feature.exclusive { color: #B39DDB; font-weight: 700; }
+    .recommended { display: inline-block; background: #F7C948; color: #7A5800; font-size: 11px; font-weight: 700; padding: 3px 10px; border-radius: 999px; margin-bottom: 10px; }
+    .recommended-prestige { display: inline-block; background: rgba(123,92,240,0.3); color: #B39DDB; font-size: 11px; font-weight: 700; padding: 3px 10px; border-radius: 999px; margin-bottom: 10px; }
+    .contact-box { background: white; border-radius: 16px; padding: 24px; margin-top: 16px; box-shadow: 0 2px 12px rgba(0,0,0,0.06); }
+    .contact-box a { color: #7B5CF0; font-weight: 700; text-decoration: none; }
+    footer { text-align: center; padding: 32px 24px; border-top: 1px solid #E5E2F0; color: #6B6880; font-size: 13px; }
+    .badge { display: inline-block; background: #3EC98E; color: white; font-size: 12px; font-weight: 700; padding: 4px 12px; border-radius: 999px; margin-bottom: 16px; }
+  </style>
+</head>
+<body>
+<header>
+  <h1>Conditions Générales de Vente</h1>
+  <div class="app-name">Application Colocool</div>
+  <div class="date">Dernière mise à jour : 22 juillet 2026</div>
+</header>
+<div class="container">
+
+  <h2>1. Objet</h2>
+  <p>Les présentes Conditions Générales de Vente (CGV) régissent les relations contractuelles entre AppliXia et toute personne souhaitant souscrire à un abonnement payant de l'application mobile Colocool. Toute souscription implique l'acceptation pleine et entière des présentes CGV.</p>
+
+  <h2>2. Description du service</h2>
+  <p>Colocool est une application mobile de gestion de colocation permettant de gérer les dépenses partagées, les tâches ménagères, les événements, les sondages, la messagerie en temps réel, la liste de courses, le bilan mensuel PDF, les statistiques avancées et le budget prévisionnel.</p>
+
+  <h2>3. Offre d'essai gratuite</h2>
+  <div class="highlight"><strong>30 jours d'essai gratuit</strong> offerts à la création de chaque colocation. Toutes les fonctionnalités sont accessibles sans engagement. Chaque appareil ne bénéficie que d'une seule période d'essai par colocation créée.</div>
+
+  <h2>4. Nos offres d'abonnement</h2>
+  <div class="plans">
+    <div class="plan-card plan-standard">
+      <div class="plan-title">🏠 Standard</div>
+      <div class="plan-price">3,99€<span style="font-size:13px;font-weight:400;">/mois</span></div>
+      <div class="plan-feature">✓ Dépenses partagées illimitées</div>
+      <div class="plan-feature">✓ Tâches ménagères</div>
+      <div class="plan-feature">✓ Chat en temps réel</div>
+      <div class="plan-feature">✓ Événements et sondages</div>
+      <div class="plan-feature">✓ Notifications push</div>
+      <div class="plan-feature">✓ Historique des remboursements</div>
+      <div class="plan-feature" style="color:#B0ABCB;">✗ Bilan mensuel PDF</div>
+      <div class="plan-feature" style="color:#B0ABCB;">✗ Statistiques avancées</div>
+      <div class="plan-feature" style="color:#B0ABCB;">✗ Budget prévisionnel</div>
+    </div>
+    <div class="plan-card plan-premium">
+      <div class="recommended">⭐ Populaire</div>
+      <div class="plan-title">⭐ Premium</div>
+      <div class="plan-price">4,99€<span style="font-size:13px;font-weight:400;">/mois</span></div>
+      <div class="plan-feature">✓ Tout du plan Standard</div>
+      <div class="plan-feature" style="font-weight:700;color:#D4A017;">✨ Bilan mensuel PDF</div>
+      <div class="plan-feature" style="font-weight:700;color:#D4A017;">✨ Statistiques avancées</div>
+      <div class="plan-feature" style="color:#B0ABCB;">✗ Budget prévisionnel</div>
+    </div>
+    <div class="plan-card plan-prestige">
+      <div class="recommended-prestige">💎 Recommandé</div>
+      <div class="plan-title">💎 Prestige</div>
+      <div class="plan-price">6,99€<span style="font-size:13px;font-weight:400;color:rgba(255,255,255,0.5);">/mois</span></div>
+      <div class="plan-feature">✓ Tout du plan Premium</div>
+      <div class="plan-feature exclusive">✨ Budget global mensuel</div>
+      <div class="plan-feature exclusive">✨ Budget par catégorie</div>
+      <div class="plan-feature exclusive">✨ Alertes dépassement</div>
+      <div class="plan-feature exclusive">✨ Tableau de bord budgétaire</div>
+    </div>
+  </div>
+
+  <h3>4.1 Facturation</h3>
+  <p>Les abonnements sont facturés mensuellement via Stripe, notre prestataire de paiement sécurisé. Les informations bancaires ne sont jamais stockées sur nos serveurs.</p>
+
+  <h3>4.2 Renouvellement automatique</h3>
+  <p>Les abonnements se renouvellent automatiquement chaque mois. Vous pouvez résilier à tout moment avant la date de renouvellement.</p>
+
+  <h3>4.3 Changement d'offre</h3>
+  <p>Vous pouvez changer de plan à tout moment. Le passage à un plan supérieur prend effet immédiatement. Le retour à un plan inférieur prend effet à la fin de la période mensuelle en cours.</p>
+
+  <h2>5. Résiliation</h2>
+  <p>Résiliation possible à tout moment sans frais à <a href="mailto:colocool.app@yahoo.com">colocool.app@yahoo.com</a>. La résiliation prend effet à la fin de la période mensuelle en cours.</p>
+
+  <h2>6. Droit de rétractation</h2>
+  <span class="badge">14 jours</span>
+  <p>Conformément à l'article L221-18 du Code de la consommation, vous disposez d'un droit de rétractation de <strong>14 jours</strong> à compter de la souscription. Contact : <a href="mailto:colocool.app@yahoo.com">colocool.app@yahoo.com</a>.</p>
+
+  <h2>7. Modification des tarifs</h2>
+  <p>Toute modification tarifaire sera communiquée au moins 30 jours avant son entrée en vigueur. Résiliation sans frais possible si vous n'acceptez pas les nouveaux tarifs.</p>
+
+  <h2>8. Responsabilités</h2>
+  <p>Colocool est un outil de gestion. Nous ne sommes pas responsables des désaccords financiers entre colocataires, des données saisies par les utilisateurs, ni des pertes de données dues à un appareil perdu.</p>
+
+  <h2>9. Propriété intellectuelle</h2>
+  <p>L'application Colocool, son logo et son design sont la propriété exclusive d'AppliXia. Toute reproduction sans autorisation est interdite.</p>
+
+  <h2>10. Droit applicable</h2>
+  <p>Ces CGV sont soumises au droit français. En cas de litige non résolu à l'amiable, vous pouvez recourir à la médiation via <a href="https://ec.europa.eu/consumers/odr" style="color:#7B5CF0;">ec.europa.eu/consumers/odr</a>.</p>
+
+  <h2>11. Contact</h2>
+  <div class="contact-box">
+    <p>Pour toute question relative à ces CGV ou à votre abonnement :</p>
+    <ul style="margin-top:12px;">
+      <li>📧 Email : <a href="mailto:colocool.app@yahoo.com">colocool.app@yahoo.com</a></li>
+      <li>📱 Application : AppliXia — Colocool</li>
+    </ul>
+    <p style="margin-top:12px; font-size:13px; color:#6B6880;">Réponse sous 48 heures ouvrées.</p>
+  </div>
+</div>
+<footer>
+  © 2026 AppliXia — Colocool. Tous droits réservés.<br>
+  <span style="font-size:11px; opacity:0.7;">La coloc sans prise de tête</span>
+</footer>
+</body>
+</html>
