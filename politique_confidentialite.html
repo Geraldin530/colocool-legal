@@ -29,7 +29,7 @@
   <img src="icon.png" alt="Colocool" style="width:80px;height:80px;border-radius:20px;margin-bottom:12px;display:block;margin-left:auto;margin-right:auto;" />
   <h1>Politique de Confidentialité</h1>
   <div class="app-name">Application Colocool</div>
-  <div class="date">Dernière mise à jour : 27 octobre 2026</div>
+  <div class="date">Dernière mise à jour : 6 novembre 2026</div>
 </header>
 <div class="container">
 
@@ -56,6 +56,7 @@
     <li>Identifiant unique de votre appareil (device_id, pour la sécurité et l'anti-fraude)</li>
     <li>Date et heure de création des entrées</li>
     <li>Données d'utilisation anonymisées</li>
+    <li>Rapports de plantage techniques (modèle d'appareil, version du système, journal de l'erreur), sans nom ni e-mail</li>
   </ul>
 
   <h3>2.3 Données que nous ne collectons PAS</h3>
@@ -84,26 +85,27 @@
   <ul>
     <li><strong>Supabase</strong> — hébergement de base de données, serveurs en Europe (Irlande)</li>
     <li><strong>Expo / EAS</strong> — distribution de l'application mobile</li>
-    <li><strong>RevenueCat</strong> — traitement sécurisé des paiements (Standard, Premium et Prestige)</li>
+    <li><strong>Sentry</strong> — détection des plantages et des erreurs de l'application, hébergement dans l'Union européenne. Il reçoit uniquement des rapports techniques (modèle d'appareil, version du système, journal de l'erreur), sans nom ni e-mail.</li>
     <li><strong>RevenueCat</strong> — gestion des abonnements et des droits d'accès (plans payants). Il reçoit un identifiant anonyme d'utilisateur et l'état de l'abonnement. Aucune donnée bancaire ne lui est transmise.</li>
     <li><strong>Google Play (Google Ireland Limited)</strong> — distribution de l'application et traitement des paiements d'abonnement effectués via Google Play. Les données de paiement sont gérées exclusivement par Google, selon sa propre politique de confidentialité.</li>
   </ul>
 
   <h2>5. Conservation des données</h2>
   <ul>
-    <li><strong>Données de la colocation</strong> (dépenses, tâches, messages, etc.) : conservées pendant toute la durée d'activité de la colocation. Si vous quittez une colocation, vos données sont effacées dans un délai de 30 jours.</li>
+    <li><strong>Données de la colocation</strong> (dépenses, tâches, messages, etc.) : conservées pendant toute la durée d'activité de la colocation. Quand vous supprimez votre compte, votre profil (prénom, couleur, photo) est supprimé ; les contenus partagés (dépenses, tâches, messages) restent visibles par vos colocataires sous le nom « Ancien membre ». Sur demande par e-mail, nous supprimons l'intégralité des données de la colocation sous 30 jours.</li>
     <li><strong>Identifiant d'appareil (device_id)</strong> : conservé tant que votre compte est actif, utilisé uniquement pour la sécurité et la prévention de la fraude, puis supprimé avec le compte.</li>
     <li><strong>Données d'usage anonymisées</strong> : conservées au maximum 12 mois.</li>
-    <li><strong>Données de facturation</strong> (RevenueCat, Google Play) : conservées 10 ans, conformément aux obligations légales et comptables françaises.</li>
+    <li><strong>Rapports de plantage</strong> (Sentry) : conservés au maximum 90 jours.</li>
+    <li><strong>Données de facturation</strong> (Google Play) : conservées 10 ans, conformément aux obligations légales et comptables françaises.</li>
   </ul>
 
   <h2 id="suppression">Suppression de votre compte et de vos données</h2>
   <p>Vous pouvez demander à tout moment la suppression de votre compte et des données associées :</p>
   <ul>
-    <li><strong>Depuis l'application</strong> : en quittant votre colocation, vos données personnelles sont effacées sous 30 jours.</li>
-    <li><strong>Par e-mail</strong> : écrivez à <a href="mailto:colocool.app@protonmail.com" style="color:#7B5CF0;">colocool.app@protonmail.com</a> en indiquant le prénom et le nom de colocation utilisés dans l'application. Votre demande est traitée sous 30 jours.</li>
+    <li><strong>Depuis l'application</strong> : onglet Profil, puis « Supprimer mon compte ». Votre profil (prénom, couleur, photo) est supprimé immédiatement. Les dépenses, tâches et messages partagés avec vos colocataires restent visibles pour eux sous le nom « Ancien membre », car ils sont nécessaires à leurs comptes.</li>
+    <li><strong>Par e-mail</strong> : écrivez à <a href="mailto:colocool.app@protonmail.com" style="color:#7B5CF0;">colocool.app@protonmail.com</a> en indiquant le prénom et le nom de colocation utilisés dans l'application. Votre demande est traitée sous 30 jours. Vous pouvez demander la suppression complète des données de la colocation.</li>
   </ul>
-  <p>Sont supprimés : prénom, dépenses, tâches, événements, sondages, messages, liste d'envies, budgets et identifiant d'appareil. Seules sont conservées les données que la loi nous oblige à garder, notamment les justificatifs de paiement (10 ans).</p>
+  <p>Sont supprimés : prénom, couleur et photo de profil. Sur demande par e-mail, nous supprimons aussi l'intégralité des données de la colocation (dépenses, tâches, événements, sondages, messages, liste d'envies, budgets). Seules sont conservées les données que la loi nous oblige à garder, notamment les justificatifs de paiement, conservés par Google Play. Page dédiée : <a href="suppression_compte.html" style="color:#7B5CF0;">suppression de compte</a>.</p>
 
   <h2>6. Sécurité des données</h2>
   <ul>
@@ -133,10 +135,10 @@
   <p>Colocool propose trois plans d'abonnement payants après la période d'essai gratuite de 30 jours :</p>
   <ul>
     <li><strong>Plan Standard — 3,99€/mois</strong> : accès à toutes les fonctionnalités de base (dépenses, tâches, chat, événements, sondages, notifications)</li>
-    <li><strong>Plan Premium — 4,99€/mois</strong> : tout le plan Standard + bilan mensuel PDF + statistiques avancées</li>
+    <li><strong>Plan Premium — 4,99€/mois</strong> : tout le plan Standard + export PDF et CSV du mois + statistiques avancées</li>
     <li><strong>Plan Prestige — 6,99€/mois</strong> : tout le plan Premium + budget global mensuel + budget par catégorie + alertes de dépassement + tableau de bord budgétaire</li>
   </ul>
-  <p>Les paiements sont traités par RevenueCat ou par Google Play selon la plateforme d'achat. Nous ne stockons jamais vos informations bancaires. Sans engagement, résiliable à tout moment.</p>
+  <p>Les paiements sont traités par Google Play. Nous ne stockons jamais vos informations bancaires. Sans engagement, résiliable à tout moment.</p>
 
   <h2>10. Stockage local</h2>
   <p>Nous utilisons le stockage local de votre appareil (AsyncStorage) uniquement pour conserver votre session et préférences. Ces données restent sur votre appareil.</p>
